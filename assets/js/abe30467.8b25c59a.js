@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkdocu_origin=globalThis.webpackChunkdocu_origin||[]).push([[5607],{4348(o){o.exports=JSON.parse('{"metadata":{"permalink":"/aristov/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
