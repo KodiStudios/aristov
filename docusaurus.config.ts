@@ -15,15 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://KodiStudios.github.io',
+  url: 'https://yoururl.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/aristov',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'KodiStudios', // Usually your GitHub org/user name.
-  projectName: 'aristov', // Usually your repo name.
+  //organizationName: 'KodiStudios', // Usually your GitHub org/user name.
+  //projectName: 'aristov', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
