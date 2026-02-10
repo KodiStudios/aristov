@@ -3815,6 +3815,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^24":
+  version: 24.10.12
+  resolution: "@types/node@npm:24.10.12"
+  dependencies:
+    undici-types: "npm:~7.16.0"
+  checksum: 10c0/fa39b88c8d82a2cec41544bee3426c4b78a13cc3c5ccf6fcb6c9528a68466ffcc73772833c612c7bb7e5fe1bc8e38002d1d543152e43b20b0600096cf6f210d1
+  languageName: node
+  linkType: hard
+
 "@types/prismjs@npm:^1.26.0":
   version: 1.26.5
   resolution: "@types/prismjs@npm:1.26.5"
@@ -4447,6 +4456,7 @@ __metadata:
     "@docusaurus/tsconfig": "npm:^3.9.2"
     "@docusaurus/types": "npm:^3.9.2"
     "@mdx-js/react": "npm:^3.1.1"
+    "@types/node": "npm:^24"
     "@types/react": "npm:^18"
     "@types/react-dom": "npm:^18"
     clsx: "npm:^2.1.1"
