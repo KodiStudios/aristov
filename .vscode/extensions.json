@@ -1,6 +1,9 @@
 {
   "recommendations": [
     // Support for Yarn V4
-    "arcanis.vscode-zipfs"
+    "arcanis.vscode-zipfs",
+
+    // Code formatter
+    "esbenp.prettier-vscode"
   ]
 }

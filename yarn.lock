@@ -3884,15 +3884,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*":
-  version: 19.2.10
-  resolution: "@types/react@npm:19.2.10"
-  dependencies:
-    csstype: "npm:^3.2.2"
-  checksum: 10c0/17b96203a79ad3fa3cee8f1f1f324b93f005bc125755e29ac149402807275feaf3f00a4e65b8405f633923ac993da5737fd9800d27ee49911f3ed51dc27478f9
-  languageName: node
-  linkType: hard
-
 "@types/react@npm:^18":
   version: 18.3.28
   resolution: "@types/react@npm:18.3.28"
@@ -4445,6 +4436,27 @@ __metadata:
   checksum: 10c0/c5640c2d89045371c7cedd6a70212a04e360fd34d6edeae32f6952c63949e3525ea77dbec0289d8213a99bbaeab5abfa860b5c12cf88a2e6cf8106e90dd27a7e
   languageName: node
   linkType: hard
+
+"aristov-web@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "aristov-web@workspace:."
+  dependencies:
+    "@docusaurus/core": "npm:^3.9.2"
+    "@docusaurus/module-type-aliases": "npm:^3.9.2"
+    "@docusaurus/preset-classic": "npm:^3.9.2"
+    "@docusaurus/tsconfig": "npm:^3.9.2"
+    "@docusaurus/types": "npm:^3.9.2"
+    "@mdx-js/react": "npm:^3.1.1"
+    "@types/react": "npm:^18"
+    "@types/react-dom": "npm:^18"
+    clsx: "npm:^2.1.1"
+    prettier: "npm:^3.8.1"
+    prism-react-renderer: "npm:^2.4.1"
+    react: "npm:^18"
+    react-dom: "npm:^18"
+    typescript: "npm:^5.9.3"
+  languageName: unknown
+  linkType: soft
 
 "array-flatten@npm:1.1.1":
   version: 1.1.1
@@ -5810,26 +5822,6 @@ __metadata:
   checksum: 10c0/8948d3d03063fb68e04a1e386875f8c3bcc398fc375f535f2b438fad8f41bf1afa6f5e70893ba44f4ae884c089247e0a31045722fa6ff0f01d228da103f1811d
   languageName: node
   linkType: hard
-
-"docu-origin@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "docu-origin@workspace:."
-  dependencies:
-    "@docusaurus/core": "npm:^3.9.2"
-    "@docusaurus/module-type-aliases": "npm:^3.9.2"
-    "@docusaurus/preset-classic": "npm:^3.9.2"
-    "@docusaurus/tsconfig": "npm:^3.9.2"
-    "@docusaurus/types": "npm:^3.9.2"
-    "@mdx-js/react": "npm:^3.1.1"
-    "@types/react": "npm:^18"
-    "@types/react-dom": "npm:^18"
-    clsx: "npm:^2.1.1"
-    prism-react-renderer: "npm:^2.4.1"
-    react: "npm:^18"
-    react-dom: "npm:^18"
-    typescript: "npm:^5.9.3"
-  languageName: unknown
-  linkType: soft
 
 "dom-converter@npm:^0.2.0":
   version: 0.2.0
@@ -10519,6 +10511,15 @@ __metadata:
     picocolors: "npm:^1.1.1"
     source-map-js: "npm:^1.2.1"
   checksum: 10c0/5127cc7c91ed7a133a1b7318012d8bfa112da9ef092dddf369ae699a1f10ebbd89b1b9f25f3228795b84585c72aabd5ced5fc11f2ba467eedf7b081a66fad024
+  languageName: node
+  linkType: hard
+
+"prettier@npm:^3.8.1":
+  version: 3.8.1
+  resolution: "prettier@npm:3.8.1"
+  bin:
+    prettier: bin/prettier.cjs
+  checksum: 10c0/33169b594009e48f570471271be7eac7cdcf88a209eed39ac3b8d6d78984039bfa9132f82b7e6ba3b06711f3bfe0222a62a1bfb87c43f50c25a83df1b78a2c42
   languageName: node
   linkType: hard
 
