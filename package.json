@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "postinstall": "yarn run sdks base",
+    "sdks": "yarn dlx @yarnpkg/sdks",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build",
