@@ -12,21 +12,26 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
+    "//update:yarn": "Updates packageManager field",
+    "update:yarn": "corepack use yarn@latest",
+    "update": "yarn up \"@docusaurus/*@latest\" \"@mdx-js/react@latest\" clsx@latest prism-react-renderer@latest react@^18 react-dom@^18 \"@types/react@^18\" \"@types/react-dom@^18\" typescript@latest && yarn dlx update-browserslist-db@latest",
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@docusaurus/core": "3.9.2",
-    "@docusaurus/preset-classic": "3.9.2",
-    "@mdx-js/react": "^3.0.0",
-    "clsx": "^2.0.0",
-    "prism-react-renderer": "^2.3.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "@docusaurus/core": "^3.9.2",
+    "@docusaurus/preset-classic": "^3.9.2",
+    "@mdx-js/react": "^3.1.1",
+    "clsx": "^2.1.1",
+    "prism-react-renderer": "^2.4.1",
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.9.2",
-    "@docusaurus/tsconfig": "3.9.2",
-    "@docusaurus/types": "3.9.2",
+    "@docusaurus/module-type-aliases": "^3.9.2",
+    "@docusaurus/tsconfig": "^3.9.2",
+    "@docusaurus/types": "^3.9.2",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
     "typescript": "^5.9.3"
   },
   "browserslist": {
@@ -44,5 +49,5 @@
   "engines": {
     "node": ">=24.0.0"
   },
-  "packageManager": "yarn@4.12.0"
+  "packageManager": "yarn@4.12.0+sha512.f45ab632439a67f8bc759bf32ead036a1f413287b9042726b7cc4818b7b49e14e9423ba49b18f9e06ea4941c1ad062385b1d8760a8d5091a1a31e5f6219afca8"
 }
