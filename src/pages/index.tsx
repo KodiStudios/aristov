@@ -20,8 +20,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <img
             src="https://1drv.ms/i/c/fa8a0c5ee30de8e9/IQQlU_C2l1eXQq9Wk4MnPvryAfOMf2Sc1cKL-B6SLOEs0j0?height=1024"
-            width="auto"
-            height="1024"
+            className={styles.heroImage}
           />
         </div>
       </div>
