@@ -1,23 +1,21 @@
-# Dependencies
-/node_modules
+# Claude Code local settings (tool permissions, etc.)
+.claude/
 
-# Production
-/build
+# Docusaurus generated files
+.docusaurus/
 
-# Generated files
-.docusaurus
-.cache-loader
-
-# Misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# Log Files
+# Log files
 *.log
 
-# Yarn PnP Related Files
+# macOS Finder metadata files
+.DS_Store
+
+# Node.js dependencies
+node_modules/
+
+# Production build
+build/
+
+# Yarn
 .pnp.*
 .yarn/

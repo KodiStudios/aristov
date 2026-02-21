@@ -4,32 +4,23 @@
 
 ### Node.js
 
-This project requires **Node.js LTS**, managed via [nvm](https://github.com/nvm-sh/nvm).
+This project requires **Node.js v24 or later**.
 
-On macOS, install nvm via [Homebrew](https://brew.sh):
+Download and install the latest LTS version from [nodejs.org](https://nodejs.org/).
 
-```sh
-brew install nvm
-```
-
-For other platforms, see the [nvm installation docs](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-Then install and activate the correct Node.js version defined in `.nvmrc`:
+Verify the installation:
 
 ```sh
-nvm install
-nvm use
+node --version
 ```
 
-### Yarn (via Corepack)
+### Yarn
 
-This project uses **Yarn v4**, managed via [Corepack](https://nodejs.org/api/corepack.html), which ships with Node.js. Enable it once:
+Enable Yarn (the JavaScript package manager used by this project):
 
 ```sh
 corepack enable
 ```
-
-Corepack will automatically use the correct Yarn version (pinned in `package.json`) when you run `yarn` commands in this project.
 
 ## Setup
 
@@ -55,6 +46,6 @@ The site will be available at [http://localhost:3000](http://localhost:3000).
 | -------------- | ---------------------------------------- |
 | `yarn build`   | Build the production site                |
 | `yarn serve`   | Serve the production build locally       |
-| `yarn lint`    | Run TypeScript type checking and Prettier check |
+| `yarn lint`    | Run TypeScript type checking and format files with Prettier |
 | `yarn format`  | Format all files with Prettier           |
 | `yarn clear`   | Clear the Docusaurus cache               |
