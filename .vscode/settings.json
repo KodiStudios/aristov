@@ -7,10 +7,7 @@
   "files.eol": "\n",
 
   "cSpell.allowCompoundWords": true,
-  "cSpell.words": [
-    "Aristov",
-    "Kodi"
-  ],
+  "cSpell.words": ["Aristov", "Kodi"],
 
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",

@@ -42,10 +42,10 @@ The site will be available at [http://localhost:3000](http://localhost:3000).
 
 ## Other commands
 
-| Command        | Description                              |
-| -------------- | ---------------------------------------- |
-| `yarn build`   | Build the production site                |
-| `yarn serve`   | Serve the production build locally       |
-| `yarn lint`    | Run TypeScript type checking and format files with Prettier |
-| `yarn format`  | Format all files with Prettier           |
-| `yarn clear`   | Clear the Docusaurus cache               |
+| Command       | Description                                                 |
+| ------------- | ----------------------------------------------------------- |
+| `yarn build`  | Build the production site                                   |
+| `yarn serve`  | Serve the production build locally                          |
+| `yarn lint`   | Run TypeScript type checking and format files with Prettier |
+| `yarn format` | Format all files with Prettier                              |
+| `yarn clear`  | Clear the Docusaurus cache                                  |

@@ -2,7 +2,7 @@
   "recommendations": [
     // JSON5 syntax highlighting
     "mrmlnc.vscode-json5",
-    
+
     // Code formatter
     "esbenp.prettier-vscode"
   ]
