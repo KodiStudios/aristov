@@ -1,16 +1,13 @@
 {
-  // Enforce Unix-style (LF) line endings
-  // in VsCode-created files.
+  // Enforce Unix-style (LF) line endings in VS Code.
   // Otherwise the default line ending is CRLF on Windows,
-  // which can cause issues in cross-platform development
-  // and with tools that expect LF.
+  // which can cause issues in cross-platform development.
+  // Note: A more generic cross-editor approach is .editorconfig,
+  // but VS Code doesn't support it without a third-party extension.
   "files.eol": "\n",
-  
+
   "cSpell.allowCompoundWords": true,
-  "cSpell.words": [
-    "Aristov",
-    "Kodi"
-  ],
+  "cSpell.words": ["Aristov", "Kodi"],
 
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
