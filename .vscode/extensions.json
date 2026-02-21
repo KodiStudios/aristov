@@ -1,8 +1,5 @@
 {
   "recommendations": [
-    // Support for Yarn V4
-    "arcanis.vscode-zipfs",
-
     // JSON5 syntax highlighting
     "mrmlnc.vscode-json5",
     

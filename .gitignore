@@ -18,6 +18,6 @@
 # Log Files
 *.log
 
-# Yarn PnP Related Files
+# Yarn
 .pnp.*
 .yarn/
