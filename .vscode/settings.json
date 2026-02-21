@@ -5,8 +5,12 @@
   // which can cause issues in cross-platform development
   // and with tools that expect LF.
   "files.eol": "\n",
+  
   "cSpell.allowCompoundWords": true,
-  "cSpell.words": ["Aristov", "Kodi"],
+  "cSpell.words": [
+    "Aristov",
+    "Kodi"
+  ],
 
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -38,5 +42,6 @@
   // Required for VsCode
   // to provide TypeScript IntelliSense with Yarn V4
   "typescript.tsdk": ".yarn/sdks/typescript/lib",
-  "typescript.enablePromptUseWorkspaceTsdk": true
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.cjs"
 }
