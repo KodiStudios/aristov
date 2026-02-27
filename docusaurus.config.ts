@@ -5,8 +5,9 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
+  // Center
   title: "Nikolai Aristov",
-  tagline: "Welcome to My Blog",
+  tagline: "Lifestyle and Creativity",
 
   // Icon displayed on Browser Tab
   favicon: "img/favicon.ico",
@@ -23,11 +24,6 @@ const config: Config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  //organizationName: 'KodiStudios', // Usually your GitHub org/user name.
-  //projectName: 'aristov', // Usually your repo name.
-
   onBrokenLinks: "throw",
 
   // Even if you don't use internationalization, you can use this field to set
@@ -42,23 +38,20 @@ const config: Config = {
     [
       "classic",
       {
+        // Top Left, 1st Item
         docs: {
           sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          // Adds "edit this page" links.
+          editUrl: "https://github.com/KodiStudios/aristov/tree/main/",
         },
+        // Top Left, 2nd Item
         blog: {
           showReadingTime: false,
           feedOptions: {
             type: ["rss", "atom"],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/KodiStudios/aristov/tree/main/",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -77,6 +70,9 @@ const config: Config = {
     colorMode: {
       respectPrefersColorScheme: true,
     },
+
+    // Large Screens: Top Bar
+    // Small Screens: Top Left Menu Burger Button
     navbar: {
       title: "Nikolai Aristov",
       logo: {
@@ -85,12 +81,12 @@ const config: Config = {
       },
       items: [
         {
+          label: "Collections",
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
-          label: "Tutorial",
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        { label: "Blog", to: "/blog", position: "left" },
         {
           href: "https://github.com/KodiStudios/aristov",
           label: "GitHub",
@@ -98,45 +94,44 @@ const config: Config = {
         },
       ],
     },
+
+    // Bottom
     footer: {
       style: "dark",
       links: [
+        // Bottom Left
         {
-          title: "Docs",
+          title: "Niko",
           items: [
             {
-              label: "Tutorial",
+              label: "Collections",
               to: "/docs/intro",
             },
-          ],
-        },
-        {
-          title: "Community",
-          items: [
-            {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "X",
-              href: "https://x.com/docusaurus",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
             {
               label: "Blog",
               to: "/blog",
             },
+          ],
+        },
+
+        // Bottom Center
+        {
+          title: "Community",
+          items: [
+            {
+              label: "Instagram",
+              href: "https://instagram.com/nikoaristov",
+            },
+          ],
+        },
+
+        // Bottom Right
+        {
+          title: "More",
+          items: [
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/KodiStudios/aristov",
             },
           ],
         },
