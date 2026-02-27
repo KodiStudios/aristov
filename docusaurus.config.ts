@@ -6,7 +6,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "Nikolai Aristov",
-  tagline: "Imagination Unlimited",
+  tagline: "Welcome to My Blog",
 
   // Icon displayed on Browser Tab
   favicon: "img/favicon.ico",
