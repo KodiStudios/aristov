@@ -16,7 +16,7 @@
     "format": "prettier --write .",
     "//update:yarn": "Updates packageManager field",
     "update:yarn": "corepack use yarn@latest",
-    "update": "bash scripts/update.sh",
+    "update": "node scripts/update.ts",
     "typecheck": "tsc"
   },
   "dependencies": {
