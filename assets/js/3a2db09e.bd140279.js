@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkaristov_web=globalThis.webpackChunkaristov_web||[]).push([[121],{8070(a){a.exports=JSON.parse('{"tags":[{"label":"Hola","permalink":"/blog/tags/hola","description":"Hola tag description","count":1},{"label":"Docusaurus","permalink":"/blog/tags/docusaurus","description":"Docusaurus tag description","count":1}]}')}}]);

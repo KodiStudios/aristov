@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkaristov_web=globalThis.webpackChunkaristov_web||[]).push([[472],{5513(s){s.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"First Blog Post","permalink":"/blog/first-blog-post","unlisted":false,"date":"2026-02-28T00:00:00.000Z"}]}')}}]);
